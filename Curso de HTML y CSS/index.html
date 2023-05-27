@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+                          <!-- HEAD-->
+<head>
+  
+    <title>App de Gatos</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Permanent+Marker&display=swap" rel="stylesheet">
+  </head>
+                          <!--BODY-->
+  <body>
+    <h2 id="titulo-principal">App de Gatos</h2>
+    <main>
+      
+      <h3>Imégenes de Gatos:</h3>
+      <!-- Agregar enlace para imagenes de Gatos-->
+      <p><a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">Haz clic aquí</a> para ver más imágenes de gatos.</p>
+      <a href="https://www.google.com" target="_blank" rel="noopener noreferrer"><img src="http://bit.ly/fcc-relaxing-cat" class="imagenes" alt="Un lindo gato naranja recostado sobre su espalda."></a>
+      <br>
+      <img src="Imagenes/IMG_9284.jpg" class="imagenes" alt="Foto del Matri">
+      <hr>
+                     <!--FORMULARIO-->
+      <form action="#">
+        <p>¿Donde Prefiere estar tu Gato?</p>
+        <!-- BOTONES DE SELECCIÓN MULTIPLE-->
+        <label for="Interior"><input type="radio" id="Interior" name="Interior-Exterior" value="Interior">Interior</label>
+        <br>
+        <label for="Exterior"><input type="radio" id="Exterior" name="Interior-Exterior" value="Exterior">Exterior</label>
+        <br>
+        
+                 <!-- CHECKLIST-->
+        <p>Caracteristicas de tu Gato</p>
+        <label for="Carinoso">
+          <input type="checkbox" id="Carinoso" name="personalidad" value="Carinoso">Cariñoso
+        </label><br>
+        <label for="Arizco">
+          <input type="checkbox" id="Arizco" name="personalidad" value="Arizco">Arizco
+        </label><br>
+        <label for="Jugueton">
+          <input type="checkbox" id="Jugueton" name="personalidad" value="Jugueton">Juguetón
+        </label><br>
+        <label for="Perezoso">
+          <input type="checkbox" id="Perezoso" name="personalidad" value="Perezoso">Perezoso
+        </label><br>
+        <br>
+
+        <!-- INGRESAR TEXTO Y ENVIAR-->
+        <input type="text" placeholder="Lo que quieras escribir" required>
+        <button type="submit">Listoco</button>
+      </form>
+
+      <hr>
+                      <!--LISTAS-->
+      <div class="listas">
+        <h3>Lista de Gatos</h3>
+        <p>Cosas que los Gatos <em>Aman</em>:</p>
+        <ul class="listas">
+          <li><s>Menta de lista</s></li>
+          <li>Lasaña</li>
+          <li>Apuntadores laser </li>
+        </ul>
+
+        <p>Cosas que los Gatos <strong>Odian</strong>:</p>
+        <ol class="listas">
+          <li>Tratamientos AntiPulgas</li>
+          <li>Truenos</li>
+          <li>Otros Gatos</li>
+        </ol>
+      </div>
+      <br>
+                    <!--RECTANGULOS-->
+      <h2>UNIDADES DE RECTANGULOS</h2>
+      <div id="contenido-rectangulos">
+        <div class="rectangulo px">200px de Ancho</div>
+        <div class="rectangulo vw">20vw de Ancho</div>
+        <div class="rectangulo em">15em de Ancho</div>
+      </div>
+
+
+
+
+    </main>
+    <footer>
+      <p><small>Los Derechos de autor están Resevados por <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">www.youtube.com</a></small></p>
+  
+    </footer>
+  </body>
+  
+</html>
